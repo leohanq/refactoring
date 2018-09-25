@@ -23,7 +23,7 @@ public class Bird {
          return 10;// Base speed
       case 1: // African Bird
          return 10 - 2 * coconouts;// Base speed - factorLoad * number of coconouts
-      case 2: // Noruegan Bird
+      case 2: // Noruegan Blue Bird
          return isNailed() ? 0 : 10 * voltage;// nailed = 0 or base speed * voltage
       }
       return 0;
